@@ -18,16 +18,17 @@ The [Steam Games Dataset](https://www.kaggle.com/datasets/artermiloff/steam-game
 
 ## Built with
 - Python and pandas, in Google Colab
-- Coming soon: my outside tool
+- Coming soon: LLM API (Gemini)
 
 ## How to run it
-Coming soon
+Download the steam games file in your Google Drive. Add your gemini key named "GOOGLE_API_KEY". 
 
 ## Example output
-Coming soon
+🤖 GEMINI'S PICK
+I recommend streaming **Counter-Strike 2** because its massive peak concurrent player count of over 1.2 million guarantees an instantly engaged, highly searchable audience. Additionally, its proven staying power—backed by an average playtime of 553 hours and universal recognition—makes it a reliable, high-retention staple for long-term community building.
 
 ## AI Use Disclosure
-Coming soon
+I used Claude to help me come up with a creative way to display the top 3 games for each one of my sub-questions. I wrote the code entirely myself, except for the creative title above each of the podium's. I understand every line I wrote.
 
 ## Author
 Reid Barlow
