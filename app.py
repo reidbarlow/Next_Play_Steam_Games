@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 from google import genai
 
-MODEL = "gemini-3.8-flash"
+MODEL = "gemini-2.5-flash"
 
 st.set_page_config(page_title="Next Play: Steam Games", page_icon="🎮")
 
