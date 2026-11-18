@@ -39,9 +39,15 @@ def show_medals(df, unit):
 def get_pick(text):
     client = genai.Client(
         api_key=st.secrets["GOOGLE_API_KEY"],
-        http_options=types.HttpOptions(timeout=30000),
+        http_options=types.HttpOptions(timeout=120000),  # 2 minutes
     )
-    response = client.models.generate_content(model=MODEL, contents=text)
+    response = client.models.generate_content(
+        model=MODEL,
+        contents=text,
+        config=types.GenerateContentConfig(
+            thinking_config=types.ThinkingConfig(thinking_level="low"),
+        ),
+    )
     return response.text
 
 
