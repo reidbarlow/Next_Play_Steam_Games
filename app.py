@@ -1,6 +1,7 @@
 import pandas as pd
 import streamlit as st
 from google import genai
+from google.genai import types
 
 MODEL = "gemini-2.5-flash"
 
@@ -38,7 +39,7 @@ def show_medals(df, unit):
 def get_pick(text):
     client = genai.Client(
         api_key=st.secrets["GOOGLE_API_KEY"],
-        http_options=types.HttpOptions(timeout=30000),  # 30 seconds, in ms
+        http_options=types.HttpOptions(timeout=30000),
     )
     response = client.models.generate_content(model=MODEL, contents=text)
     return response.text
