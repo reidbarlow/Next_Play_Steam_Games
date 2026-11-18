@@ -36,8 +36,10 @@ def show_medals(df, unit):
 
 
 def get_pick(text):
-    # Key comes from Streamlit secrets, never from the code
-    client = genai.Client(api_key=st.secrets["GOOGLE_API_KEY"])
+    client = genai.Client(
+        api_key=st.secrets["GOOGLE_API_KEY"],
+        http_options=types.HttpOptions(timeout=30000),  # 30 seconds, in ms
+    )
     response = client.models.generate_content(model=MODEL, contents=text)
     return response.text
 
