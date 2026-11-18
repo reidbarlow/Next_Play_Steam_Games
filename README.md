@@ -11,9 +11,9 @@ A player wants to pick a game to play but is overwhelemed with options. They wan
 
 ## What it does
 My app answers three sub-questions:
-1. **Crowds:** Which games have many players online at once?
-2. **Staying Power:** Which game keeps players playing longest?
-3. **Satisfaction:** What games have the largest positive percentage of user reviews?
+1. **Crowds:** Which games have many players online at once? My app returns most players each game has.
+2. **Staying Power:** Which game keeps players playing longest? My app returns the apps with the longest average playing times.
+3. **Satisfaction:** What games have the largest positive percentage of user reviews? My app returns what apps have the most positive reviews.
 
 **Together:** Gemini recommends a game to play based on the top 3 games for crowds, staying power, and satisfaction.
 
