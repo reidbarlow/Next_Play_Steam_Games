@@ -7,7 +7,7 @@ A small Python app helps a player which game to play and have the best expierenc
 ## Problem
 A player wants to pick a game to play but is overwhelemed with options. They want a game that they will have a good time playing and want to go back to. 
 
-**My app pulls data on active player counts, average playtime, and user reviews, then ranks games so streamers can pick titles with engaged communities and strong audience appeal.**
+**My app pulls data on active player counts, average playtime, and user reviews, then ranks games so gamers can pick titles with engaged communities and strong audience appeal.**
 
 ## What it does
 My app answers three sub-questions:
