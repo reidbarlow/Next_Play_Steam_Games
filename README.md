@@ -1,6 +1,6 @@
 # Next Play Steam Games
 
-A small Python app helps a player which game to play and have the best expierence.
+A small Python app helps a player pick which game to play and have the best expierence.
 
 > A course project for MIST 4600: Computer Programming in Business at the University of Georgia's Terry College of Business (Fall 2026).
 
